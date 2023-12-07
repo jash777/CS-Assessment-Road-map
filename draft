@@ -1,0 +1,49 @@
+## Instaling and configuring Tools 
+
+Nmap     | network scanner 
+OpenVAS  | full network scanner
+Nikto   | web app scanne r
+BurpSuite | web application scanner
+Nessus   | vulnerability scanner
+Wazuh    | Monitoring tool
+snort    | IDS/IPS
+suricata | IDS/IPS
+Opendlp  | data loss prevention tool
+ClamAV  | malware scanner
+
+
+
+  - Pre-Assessment Planning : Conducting a pre-assessment planning to identify the scope of the assessment.
+      - Decide which systems , networks, data to be included.
+      - Tool selection according to the scope 
+      - Install the tools on the assessment machine.
+
+  - Network Vulnarability Scanning : Conducting a Vulnarability scanns of internal and external networks to identify potential vulnerabilities.
+     - Nmap to scan the internal network  and report for furthur analysis.
+        - nmap -sV -oN result.txt -T4 192.168.1.0/24 ( network range )
+        - nmap -sC -oN result.txt -sV 192.168.1.21 ( specific ip)
+        - nmap -sC -oN result.txt -p- 192.169.1.21 ( all ports)
+        - nmap -sn -oN result.txt 192.168.1.0/24 ( network range)
+        - nmap --script=vuln -p80,443 192.168.1.0/24 (vulnerability scanning)
+
+     - OpenVAS Network Scan to scan the internal network and report for furthur analysis.
+
+  - Web Application Scanning : Conducting a web application scan of internal and external networks to identify potential vulnerabilities.
+        - Burp Suite to scan the web application  and audit furthur analysis.
+        - conduct web application scan on variuos web application using burp suite and generate report for furthur analysis
+        - Nikto also to scan for web application vulnerabilities and generate report for furthur analysis.
+            - nikto -Format html -o report.html -h http://www.example.com/  (scan for web application vulnerabilities)  | -ssl (scan for ssl enabled  web application vulnerabilities )
+            - nikto -Format html -o report.html -h http://www.example.com -p 8080 (scan for specific port)
+
+  - Moniroting and Vulnerability Management : Conducting a monitoring and vulnerability management of internal and external networks to identify potential vulnerabilities.
+        - Wazuh to monitor the network and generate report for furthur analysis.
+        - Wazuh for compilence tool 
+  - Analysis and Reporting 
+        - Analysis of the Generated reports from the network scan , web application scan and monitoring and vulnerability management.
+        - Compile findings into a report, highlight the findings, and provide recommendations for improvement.
+  - Recommendation Planning 
+        - Develoop a Demediation plan bases on the reports and vulnerability findings.
+        - Prioritize actions: Prioritize the risks and take actions based on the risk level.
+  - Documentation and compilence 
+        - Maintain Documentation: Keep detailed records of all assessments, findings, and remediation actions.
+        - Ensure Compliance: Check that all security measures align with relevant laws, regulations, and industry standards.      
