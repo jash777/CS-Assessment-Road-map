@@ -1,0 +1,21 @@
+bash script
+
+curl -sO https://packages.wazuh.com/4.7/wazuh-install.sh
+
+
+configuration 
+
+curl -sO https://packages.wazuh.com/4.7/config.yml
+
+
+agents downlaod
+
+https://documentation.wazuh.com/current/installation-guide/wazuh-agent/wazuh-agent-package-windows.html
+
+
+
+https://infosecwriteups.com/how-to-install-openvas-52b6337ba29a
+
+docker-compose -f docker-compose-22.4.yml -p greenbone-community-edition up -d
+
+
