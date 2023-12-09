@@ -1,5 +1,5 @@
 
----------------------------------------- Cybersecurity Assessment Roadmap   ---------------------------------------------------------
+--------------------- Cybersecurity Assessment Roadmap   ------------------------
 
 #### 1. Pre-Assessment Planning
 - **Objective:** Define the scope and objectives of the assessment.
@@ -58,7 +58,7 @@
 
 
 
-######################################## TIME LINE  #######################################
+######################## TIME LINE  #################################
 
 
 
@@ -102,9 +102,9 @@
 
 
 
-------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
 
-                                          NETWORK PENTEST METHODOLOGY                                                                                                                                  
+                                NETWORK PENTEST METHODOLOGY                                                                                                                                  
 
 
 
@@ -170,6 +170,7 @@ Lets say during your port scan or VA you found some services running on the serv
 
 Step 8 : Hunting some common ports
 
+
 1. DNS (53) UDP-
 
 -Examine domain name system (DNS) using dnsenum, nslookup, dig and fierce tool
@@ -183,6 +184,7 @@ Step 8 : Hunting some common ports
 -Banner grabbing and finding publicly known exploits
 
 -Check for DNS amplification attack
+
 
 2. SMTP (25) TCP -
 
@@ -204,17 +206,6 @@ Step 8 : Hunting some common ports
 
 -Banner grabbing and finding publicly known exploits
 
--Perform MIG enumeration.
-
-- .1.3.6.1.2.1.1.5 Hostnames
-
-- .1.3.6.1.4.1.77.1.4.2 Domain Name
-
-- .1.3.6.1.4.1.77.1.2.25 Usernames
-
-- .1.3.6.1.4.1.77.1.2.3.1.1 Running Services
-
-- .1.3.6.1.4.1.77.1.2.27 Share Information
 
 4. SSH (22) TCP-
 
@@ -378,7 +369,6 @@ DNSdumpster : https://dnsdumpster.com/
 Kali : https://www.kali.org/downloads/
 
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
