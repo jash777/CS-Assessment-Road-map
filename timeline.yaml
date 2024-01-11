@@ -37,3 +37,8 @@
 - **User Training and Awareness:** Conduct regular training sessions and updates on new threats and best practices.
 - **Incident Response:** Be prepared to initiate the incident response plan in case of any detected security incidents.
 
+
+
+Promtail is the agent responsible for gathering logs and sending them to Loki, 
+
+

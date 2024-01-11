@@ -1,0 +1,67 @@
+Nmap Scan Audit Report Template
+[Organization Name]
+[Audit Report Title]
+[Date]
+1. Executive Summary
+Purpose of Audit:
+
+Provide a concise overview of the objective and scope of the network scan.
+Key Findings:
+
+Highlight critical vulnerabilities, the number of open ports, and any unusual service configurations.
+Overall Risk Assessment:
+
+Offer a general risk rating (e.g., Low, Moderate, High) based on the findings.
+2. Methodology
+Tools Used:
+
+Nmap [Version] - Detailed description of the specific Nmap commands used.
+Target Details:
+
+IP Address(es) / Hostname(s) scanned.
+Date and Duration of Scan:
+
+Specify when and how long the scan was conducted.
+3. Detailed Findings
+3.1. Open Ports and Services
+Port [Port Number]: [Service Name]
+Service Version: [Version Information]
+Configuration/Issues: [Details of Configuration or Potential Issues]
+Risk Assessment: [Low/Moderate/High]
+Recommendations: [Specific Recommendations for Remediation]
+(Repeat for each open port and service identified.)
+
+3.2. Security Vulnerabilities
+Vulnerability Name / ID:
+Description:
+Affected Service/Port:
+Risk Level:
+Recommendations:
+(Repeat for each vulnerability identified.)
+
+4. Compliance Assessment
+Overview:
+Evaluate the compliance of the scanned systems with internal policies and external regulations (if applicable).
+5. Recommendations
+Overall Security Improvements:
+
+General recommendations to enhance network security, such as patch management, configuration best practices, and access controls.
+Specific Action Items:
+
+Detailed remediation steps for the vulnerabilities and issues identified in the scan.
+6. Conclusion
+Summary:
+
+Briefly recap the key findings and their implications for organizational security.
+Next Steps:
+
+Outline the proposed timeline and responsibilities for addressing the audit findings.
+7. Appendices
+Appendix A: Scan Output
+
+Include the full Nmap scan output here or as an attachment.
+Appendix B: Reference Documents
+
+List any relevant security policies, compliance standards, or other documents.
+[Auditor's Name/Team]
+[Auditor's Contact Information]

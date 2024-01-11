@@ -1,0 +1,69 @@
+````````````````````````````````` SECURITY ASSESSMENT TIME LINE  ``````````````````````````````````
+
+Day 1-2: Initial Scanning Phase
+
+Objective:
+  - Conduct an Nmap scan to identify active devices and open ports.
+  - Perform an OpenVAS scan for vulnerability assessment.
+
+Activities:
+  
+  - Initiate and complete Nmap scanning.
+  - Begin OpenVAS scanning process.
+Expected Outcomes:
+  
+  - A list of active devices and open ports from Nmap.
+  - Preliminary vulnerability data from OpenVAS.
+
+Day 3: Analysis and Deep Scanning
+
+Objective:
+
+  - Analyze results from the Nmap scan.
+  - Conduct deep scans on identified open services and ports.
+
+Activities:
+
+  - Review Nmap scan results for unusual or unexpected open ports/services.
+  - Initiate targeted deep scans on selected areas of interest.
+
+Expected Outcomes:
+
+  - Detailed understanding of network topology and open services.
+  - Identification of potential security weaknesses for further investigation.
+Day 4: Monitoring and Report Generation
+
+Objective:
+
+  - Monitor security logs for any unusual activities.
+  - Generate reports for further analysis.
+
+Activities:
+
+  - Continuous monitoring of system logs.
+  - Compilation of data into a comprehensive report format.
+Expected Outcomes:
+
+  - Identification of any anomalies in system behavior.
+  - A consolidated report capturing the week's monitoring activities.
+
+Day 5: Audit and Final Reporting
+
+Objective:
+
+  - Audit the reports from Nmap, OpenVAS, and Grafana.
+  - Finalize assessment findings.
+
+Activities:
+
+  - Thoroughly review all scan reports for accuracy and completeness.
+  - Analyze Grafana reports for any additional insights.
+
+Expected Outcomes:
+
+  - A comprehensive audit of all scanning activities and findings.
+  - A finalized security assessment report ready for presentation.
+
+Conclusion:
+  - Recap the key findings and recommendations from the assessment.
+  - Discuss next steps and any recommended security measures.

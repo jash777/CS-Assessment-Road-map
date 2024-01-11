@@ -1,0 +1,49 @@
+1. System Logs
+ System Events: Include logs related to system startup, shutdown, and crashes.
+ Kernel Logs: Capture messages and alerts from the operating system kernel.
+ System Error Logs: Monitor logs for system errors and warnings.
+
+2. Application Logs
+ Application Performance Logs: Add logs that provide insights into application performance.
+ Error Logs: Track application error logs for troubleshooting.
+ User Activity Logs: Monitor logs for user interactions with the application.
+
+3. Security Logs
+ Authentication Logs: Include logs for user logins, logouts, and authentication failures.
+ Firewall Logs: Add logs related to firewall activities.
+ Intrusion Detection System Logs: Monitor logs from IDS/IPS systems for potential security threats.
+
+4. Network Logs
+ Traffic Logs: Track logs for incoming and outgoing network traffic.
+ Connection Logs: Monitor logs for successful and failed network connections.
+ Bandwidth Usage Logs: Include logs that detail bandwidth usage.
+
+5. Database Logs
+ Transaction Logs: Monitor logs for database transactions.
+ Error Logs: Add database error logs for identifying issues.
+ Audit Logs: Include logs for database access and modifications.
+
+6. Server Logs
+ HTTP Server Logs: Monitor web server access and error logs.
+ Mail Server Logs: Track logs from the mail server for sent and received emails.
+ FTP Server Logs: Include logs for file transfers.
+
+7. Infrastructure Logs
+ Cloud Service Logs: If using cloud services, include relevant logs from the service provider.
+ Virtualization Logs: Monitor logs from virtual machines and hypervisors.
+ Backup System Logs: Track logs related to backup procedures and status.
+
+8. Custom Application Logs
+ Custom Error Logs: Include custom error logs specific to your applications.
+ Performance Metrics: Add logs that monitor the performance metrics of custom applications.
+ User-Defined Events: Monitor logs for specific events defined by custom application logic.
+
+9. Compliance and Audit Logs
+ Access Logs: Ensure logs for access to sensitive data are included.
+ Change Management Logs: Add logs that track changes in the system or application.
+ Regulatory Compliance Logs: Include logs necessary for compliance with relevant regulations.
+
+10. Review and Optimization
+ Log Relevance: Regularly review logs for their relevance and importance.
+ Dashboard Optimization: Optimize the Grafana dashboard for better readability and performance.
+ Alert Setup: Configure alerts based on critical log events or patterns.

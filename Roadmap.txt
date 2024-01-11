@@ -17,6 +17,9 @@
     - **Suricata:** IDS/IPS.
     - **OpenDLP:** Data Loss Prevention tool.
     - **ClamAV:** Malware scanner.
+    - **Grafana:** Continuous Monitoring.
+
+
 
 #### 2. Network Vulnerability Scanning
 - **Objective:** Identify potential vulnerabilities in internal and external networks.

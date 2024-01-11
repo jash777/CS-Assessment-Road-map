@@ -1,0 +1,18 @@
+docker network create loki-network
+
+docker pull grafana/loki:latest
+
+docker run -d --name=loki --network=loki-network -p 3100:3100 grafana/loki:latest -config.file=/etc/loki/local-config.yaml
+
+
+
+--   debug  --
+sudo docker run -v /home/ubuntu/promtail/promtail-config.yaml:/etc/promtail/config.yml -v /var/log:/var/log grafana/promtail:latest -config.file=/etc/promtail/config.yml -log.level=debug
+
+
+sudo docker run -d --name=promtail-loki --network=loki-network -v /home/ubuntu/promtail/promtail-config.yaml:/etc/promtail/config.yml -v /var/log:/var/log grafana/promtail:latest
+
+
+
+http://host.docker.internal:9090
+

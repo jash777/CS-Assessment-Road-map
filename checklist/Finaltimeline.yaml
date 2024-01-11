@@ -1,0 +1,33 @@
+
+3 Days a week Security Assessment | Audit Report on the End of Each month:
+
+- Nmap , OpenVAS , Grafana , Burpsuite 
+
+
+Day 0: 
+
+  - Configuration Nmap, OpenVAS,Grafana,Burpsuite,Snort ( IDPS)[Optional] .....
+
+
+Day 1: 
+
+  - 'Nmap' scan on all the servers and generate reports and Prevention 
+  - 'OpenVAS' Scan on all the servers and generate Reports and Prevention 
+  - 'Grafana'  Check all the logs and Prevention the logs and catagarogy the servers logs and Prevention.
+  - 'Nessus' [optional].
+  - 'Server Hardening' benchmark check with lynis and as per the result harden the server. [ Optional]
+  - 'Wireshark' network monitoring and caputing packets and reports.
+  
+Day 2:
+
+  - 'Nmap' scan result analysis.
+  - 'Burp Suit' Web application pentesting based on the Nmap scan result on the open web service.
+  - 'Furthur Web application pentest'
+  - 
+
+Day 3:
+
+  - Audit Report of 'Nmap' Scan results.
+  - 'OpenVAS' Audit report.
+  - 'Grafana' Audit Report.
+  - 'Burp Suite' Audit Report.

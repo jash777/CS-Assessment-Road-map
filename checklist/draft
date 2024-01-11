@@ -1,0 +1,10 @@
+Weekly scan schedule:
+
+First 1-2 days , nmap scan and Openvas Scan 
+
+3rd analysis of nmap scan and deep scan againest open services and open ports 
+
+4th monitoring logs report generate for furthur anlysis.
+
+5th day auditing of the nmap scan report and openvas scan report  and grafana reports.
+

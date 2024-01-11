@@ -1,0 +1,58 @@
+# Comprehensive checklist for various types of Nmap scans in an enterprise network auditing context
+
+nmap_scan_checklist = {
+    "Nmap_Scan_Types_Checklist": {
+        "Standard_Scan": {
+            "Description": "Basic scan to quickly check for open ports",
+            "Command": "nmap [target]"
+        },
+        "Service_Version_Scan": {
+            "Description": "Scan to detect service versions on open ports",
+            "Command": "nmap -sV [target] -oN [output_file]"
+        },
+        "OS_Detection_Scan": {
+            "Description": "Scan to determine the operating system of the target",
+            "Command": "nmap -O [target] -oN [output_file]"
+        },
+        "TCP_SYN_Scan": {
+            "Description": "Perform a stealthier scan using SYN packets",
+            "Command": "nmap -sS [target] -oN [output_file]"
+        },
+        "TCP_Connect_Scan": {
+            "Description": "Complete TCP connect scan, less stealthy",
+            "Command": "nmap -sT [target] -oN [output_file]"
+        },
+        "UDP_Scan": {
+            "Description": "Scan to check open UDP ports",
+            "Command": "nmap -sU [target] -oN [output_file]"
+        },
+        "Aggressive_Scan": {
+            "Description": "Perform a more aggressive scan to gather more information",
+            "Command": "nmap -A [target] -oN [output_file]"
+        },
+        "Sneaky_Scan": {
+            "Description": "Slower scan to evade detection",
+            "Command": "nmap -T2 [target] -oN [output_file]"
+        },
+        "Firewall_Evasion_Scan": {
+            "Description": "Scan to bypass firewall rules",
+            "Command": "nmap -Pn [target] -oN [output_file]"
+        },
+        "Script_Scan": {
+            "Description": "Scan using Nmap Scripting Engine for more advanced checks",
+            "Command": "nmap --script=[script_name] [target] -oN [output_file]"
+        },
+        "Custom_Options_Scan": {
+            "Description": "Scan with customized options for specific needs",
+            "Command": "nmap [custom_options] [target] -oN [output_file]"
+        }
+    }
+}
+
+# Saving the checklist to a YAML file
+
+with open(yaml_file_path, 'w') as file:
+    yaml.dump(nmap_scan_checklist, file, sort_keys=False)
+
+yaml_file_path
+
